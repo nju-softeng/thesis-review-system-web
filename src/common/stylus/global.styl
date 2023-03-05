@@ -1,0 +1,36 @@
+#root,body,html
+  margin: 0
+  padding: 0
+
+/*清浮动*/
+.clearfix:after
+  content: "."
+  display: block
+  height: 0
+  clear: both
+  visibility: hidden
+.clearfix
+  display:block
+  width: 100%
+  margin: 0
+  padding: 0
+
+.G-col-error
+  color: #f81d22
+
+.G-col-succ
+  color: #0b8235
+
+.logo
+  float: left;
+  width: 200px;
+  height: 35px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+  background: url(../images/logo.png);
+  background-size: cover;
+
+
+.ant-row-rtl .logo
+  float: right;
+  margin: 16px 0 16px 24px;
